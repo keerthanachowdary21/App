@@ -6,31 +6,6 @@ Welcome to **The Alter Office** assignment!
 
 To run this project locally, follow the steps below:
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/keerthanachowdary/App.git
-2. Navigate to the project directory
-    ```bash
-    cd the-alter-office
-3. Create a .env file in the root directory and add the following environment variables (use your Firebase config details):
-
-    ```bash
-    REACT_APP_IMAGE_PREFIX = 
-    REACT_APP_FIREBASE_APIKEY = 
-    REACT_APP_FIREBASE_AUTHDOMAIN = 
-    REACT_APP_FIREBASE_PROJECTID = 
-    REACT_APP_FIREBASE_STORAGEBUCKET = 
-    REACT_APP_FIREBASE_MESSAGINGSENDERID = 
-    REACT_APP_FIREBASE_APPID = 
-    REACT_APP_FIREBASE_MEASUREMENTID =
-
-4. Install dependencies
-    ```bash
-    npm install
-5. Start the development server
-    ```bash
-    npm start
-
 ## 🎉 Features
 Login with Google Auth: Users can log in using Firebase's Google authentication service.
 
