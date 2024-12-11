@@ -1,6 +1,6 @@
 # The Alter Office
 
-Welcome to **The Alter Office** assignment! .
+Welcome to **The Alter Office** assignment!
 
 ## 🚀 Getting Started
 
@@ -8,14 +8,14 @@ To run this project locally, follow the steps below:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/keerthanachowdary/the-alter-office.git
+   git clone https://github.com/keerthanachowdary/App.git
 2. Navigate to the project directory
     ```bash
     cd the-alter-office
 3. Create a .env file in the root directory and add the following environment variables (use your Firebase config details):
 
     ```bash
-    REACT_APP_IMAGE_PREFIX = http://51.68.207.190/testing_d/keerthana/the-alter-office/media/
+    REACT_APP_IMAGE_PREFIX = 
     REACT_APP_FIREBASE_APIKEY = 
     REACT_APP_FIREBASE_AUTHDOMAIN = 
     REACT_APP_FIREBASE_PROJECTID = 
@@ -30,10 +30,6 @@ To run this project locally, follow the steps below:
 5. Start the development server
     ```bash
     npm start
-
-## 🌐 Live Link
-You can check out the live version of The Alter Office by visiting:
-https://the-alter-office-three.vercel.app/
 
 ## 🎉 Features
 Login with Google Auth: Users can log in using Firebase's Google authentication service.
