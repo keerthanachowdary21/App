@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px; /* Adjust as needed for desktop width */
+  margin: 0 auto;
+  background-color: #fff; /* Content background */
+  min-height: 100vh; /* Full height view */
+}
+
+.edit-profile{
+  border: 1px solid;
+    height: 32px;
+    width: 65%;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    bottom: 0;
+}
+
+input, textarea{
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.post:nth-child(even){
+  background: #FFFAEE;
+}
+
+.post:nth-child(odd){
+  background: #F7EBFF;
+}
+
+.post-image-container{
+  display: flex;
+  column-gap: 10px;
+  overflow-x: scroll;
+}
+
+.post-image-container img{
+  border-radius: 12px;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+  margin-top: -8px;
+}
+.column:nth-child(1){
+  padding-left: 0;
+}
+.column:nth-child(2){
+  margin-top: -50px;
+}
+.column:nth-child(3){
+  padding-right: 0;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; /* Optional space between items */
+}
+.grid-item {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Edge */
+}
